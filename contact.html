@@ -3,35 +3,43 @@
 
 <head>
     <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <h1>Molly McDevitt</h1>
-    <nav>
-        <p>About</p>
-        <p>Portfolio</p>
-        <p>Contact</p>
-    </nav>
-    <h2>Contact</h2>
-    <hr>
-    <br>
-    <p>Name</p>
-    <form action="/cgi-bin/hello_get.cgi" method="get">
-        <input type="text" name="first_name" />
-        <br>
-        <p>Email</p>
-        <form action="/cgi-bin/hello_get.cgi" method="get">
-            <input type="text" name="first_name" />
-            <br><br>
-            <p>Message</p>
-            <textarea rows="4" cols="50">
+    <div id="head">
+        <header>
+            <h1>Molly McDevitt</h1>
+        </header>
+        <nav>
+            <p id="abt">About</p>
+            <p id="port">Portfolio</p>
+            <p id="cont">Contact</p>
+        </nav>
+    </div>
+    <div class="wrapper">
+        <section id="content">
+            <h2>Contact</h2>
+
+            <p>Name</p>
+            <textarea rows="1" cols="20">
+            </textarea>
+
+                <p>Email</p>
+                <textarea rows="1" cols="20">
+                    </textarea>
+
+                    <p>Message</p>
+                    <textarea rows="20" cols="110">
+
+
 
   </textarea>
-
-            <footer>
-                <p>Copyright &copy;</p>
-            </footer>
+        </section>
+    </div>
+    <footer>
+        Copyright &copy;
+    </footer>
 </body>
 
 </html>
