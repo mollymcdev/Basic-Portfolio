@@ -1,6 +1,7 @@
 header {
     position: relative;
     left: 50px;
+    height: 80px;
     padding-right: 10px;
     padding-left: 10px;
     font-size: 16px;
@@ -11,7 +12,7 @@ header {
     color: #fff;
     background:#4aaaa5;
     border-bottom-color: #777777;
-    border-bottom: 2px ;  
+    border-bottom: 1px ;  
 }
 
 nav {
@@ -25,47 +26,19 @@ nav {
 }
 
 #head {
+    height: 80px;
     float: left;
     top:0;
     width: 100%;
     margin: 0 auto 0 auto;
     border-bottom-color: #777777;
-    border-bottom: 2px solid;
-
-}
-#abt {
-    display: inline;
-    float: left;
-    color: #777777;
-    padding-right: 10px;
-    border-right: 1px solid;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#port {
-    display: inline;
-    float: left;
-    color: #777777;
-    padding-right: 10px;
-    padding-left: 10px;
-    border-right: 1px solid;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#cont {
-    
-    display: inline;
-    color: #777777;
-    padding-left: 10px;
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    border-bottom: 1px solid;
 }
 
 .wrapper {
     
     width:100%;
-    height: 800px;
+    height: 900px;
     margin-top: 0px;
     margin-right: 0 auto;
     margin-bottom: 0px;
@@ -81,7 +54,7 @@ nav {
     top: 30px;
     line-height: 40px;
     width: 75%;
-    height: 700px;
+    height: 800px;
     border: 30px;
     padding-top: 10px;
     padding-right: 20px;
@@ -119,9 +92,40 @@ h2 {
     border-color: #dddddd;
 }
 
+a {
+    display: inline;
+    float: left;
+    color: #777777;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+
+}
+
+input {
+    width: 673px;
+    height: 25px;
+}
+
+#submit{
+    height: 60px;
+    width: 150px;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 20px;
 }
 
 .prj1 {
